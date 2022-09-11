@@ -1,0 +1,20 @@
+{
+  "name": "project123",
+  "version": "1.0.0",
+  "description": "sebuah project coba-coba",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "doraemon",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest"
+  }
+}
