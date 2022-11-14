@@ -4,7 +4,7 @@ const saya = require('../controllers/katakan');
 
 const router = express.Router();
 
-router.get('/halo', Controller.sayHi);
+router.get('/halo', Controller.helloWorld);
 router.get('/yurias', saya.namasaya);
 
 module.exports = router;

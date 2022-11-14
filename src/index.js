@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors({ origin: true, credentials: true }));
 
 app.use('/', router);
-app.use('/whoami', router2);
+app.use('/aku', router2);
 
 app.listen(process.env.SERVER_PORT, () => {
   console.log('Server Running');
